@@ -1,0 +1,30 @@
+body{
+    margin: 0px;
+}
+#calendar{
+    float: left;
+    padding: 25px;
+    width: calc(80% - 50px);
+    height: 750px;
+    background-color: darkslategrey;
+}
+#menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    width: calc(20% - 2px);
+    height: 800px;
+    background-color: teal;
+    border-left: 2px solid white;
+}
+#menu_inner{
+    text-align: center;
+}
+.box{
+    float: left;
+    width: 13%;
+    height: calc(750px / 6);
+    background-color: white;
+    border: 1px solid darkslategrey;
+}
