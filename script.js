@@ -25,7 +25,7 @@ function createCalendar(){
                 ? "white" 
                 : "grey"
         x.setAttribute("data-date",date)
-        x.setAttribute("onclick",`notatka(${i})`)
+        x.setAttribute("onclick",`note(${i})`)
         x.id = i;
         document.getElementById("calendar").appendChild(x)
         date = new Date(Date.parse(date) + 86400000)
