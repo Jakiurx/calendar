@@ -2,7 +2,7 @@ const weekDays = ["Niedziela","Poniedziałek", "Wtorek","Środa","Czwartek","Pi�
 
 function createCalendar(){
     if(!document.getElementById("date").value) return
-    document.getElementById("kalendarz").innerHTML = ""
+    document.getElementById("calendar").innerHTML = ""
     let date = new Date(document.getElementById("date").value)
     month = date.getMonth()
     date = (date.getDay() == 0)
